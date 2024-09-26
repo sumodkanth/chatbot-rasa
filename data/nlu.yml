@@ -1,0 +1,262 @@
+version: "3.1"
+nlu:
+- intent: first
+  examples: |
+    - thank you
+    
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - location
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: christ_intro
+  examples: |
+    - what is christ college?
+    - Can you provide an introduction to christ college?
+    - Tell me about christ college.
+    - What makes christ college unique?
+    - Tell me about christ college
+    - What is christ college?
+    - Give me an overview of christ college
+    - Can you provide information about christ college?
+    - What does christ college do?
+
+- intent: christ_course
+  examples: |
+    - Can you tell me about the courses available at christ college?
+    - What programs are offered at christ college?
+    - List the courses provided by christ college.
+    - What are the different courses at christ college?
+    - What educational programs does christ college have?
+    - I want to know about the courses at christ college.
+    - What can I learn at christ college?
+    - Which courses are available at christ college?
+    - Tell me about christ college's course offerings.
+    - What are the options at christ college?
+    - Could you provide details on the courses christ college offers?
+    - What learning opportunities does christ college provide?
+    - What subjects can I study at christ college?
+    - Are there any specific courses christ college specializes in?
+    - What academic programs does christ college offer?
+    - What courses do you offer?
+    - Tell me about the courses at christ college
+    - What programs are available?
+    - What subjects can I study at christ college?
+    - What are the emerging courses available?
+
+
+- intent: mathematics
+  examples: |
+    - What is the mathematics course about?
+    - Can you give me an overview of the mathematics program?
+    - Tell me more about the mathematics course.
+    - What topics are covered in the mathematics course?
+    - Can you provide a syllabus for the mathematics?
+    - What will I learn in the mathematics course?
+    - How long is the mathematics course?
+    - What is the duration of the mathematics program?
+    - How many weeks does the mathematics course take?
+    - What is the fee for the mathematics course?
+    - How much does the mathematics program cost?
+    - Are there any discounts available for the mathematics course?
+- intent: physics
+  examples: |
+    - What is the physics course about?
+    - Can you give me an overview of the physics program?
+    - Tell me more about the physics course.
+    - What topics are covered in the physics course?
+    - Can you provide a syllabus for the physics?
+    - What will I learn in the physics course?
+    - How long is the physics course?
+    - What is the duration of the physics program?
+    - How many weeks does the physics course take?
+    - What is the fee for the physics course?
+    - How much does the physics program cost?
+    - Are there any discounts available for the physics course?
+- intent: computerscience
+  examples: |
+    - What is the computer science course about?
+    - Can you give me an overview of the computer science program?
+    - Tell me more about the computer science course.
+    - What topics are covered in the computer science course?
+    - Can you provide a syllabus for the computer science?
+    - What will I learn in the computer science course?
+    - How long is the computer science course?
+    - What is the duration of the computer science program?
+    - How many weeks does the computer science course take?
+    - What is the fee for the computer science course?
+    - How much does the computer science program cost?
+    - Are there any discounts available for the computer science course?
+- intent: bba
+  examples: |
+    - What is the bba course about?
+    - Can you give me an overview of the bba program?
+    - Tell me more about the bba course.
+    - What topics are covered in the bba course?
+    - Can you provide a syllabus for the bba?
+    - What will I learn in the bba course?
+    - How long is the bba course?
+    - What is the duration of the bba program?
+    - How many weeks does the bba course take?
+    - What is the fee for the bba course?
+    - How much does the bba program cost?
+    - Are there any discounts available for the bba course?
+- intent: chemistry
+  examples: |
+    - What is the chemistry course about?
+    - Can you give me an overview of the chemistry program?
+    - Tell me more about the chemistry course.
+    - What topics are covered in the chemistry course?
+    - Can you provide a syllabus for the chemistry?
+    - What will I learn in the chemistry course?
+    - How long is the chemistry course?
+    - What is the duration of the chemistry program?
+    - How many weeks does the chemistry course take?
+    - What is the fee for the chemistry course?
+    - How much does the chemistry program cost?
+    - Are there any discounts available for the chemistry course?
+
+
+- intent: location
+  examples: |
+    - Where is christ college located?
+    - Are you based in thrissur, Kerala?
+    - Can you provide the address of christ college?
+    - What is the location of christ college?
+    - Can you tell me where christ college is?
+    - How can I get to christ college?
+    - Where can I find christ college?
+    - Where exactly is christ college?
+    - What is the exact address of christ college?
+    - Could you share the location of christ college?
+    - Where is your office situated?
+    - What is the address for christ college in thrissur?
+    - Can you tell me the location of your institute?
+    - Where is your institute located?
+    - How do I get to christ college?
+    - Where are you guys located?
+    - Where is christ college's office?
+    - Can you share the address of christ college?
+    - Which city is christ college located in?
+    - Are you located in Kerala?
+    - What's the location of christ college in thrissur?
+    - How can I reach christ college?
+    - What is the full address of christ college?
+    - Where is christ college in Kerala?
+    - Can you provide directions to christ college?
+    - location
+- intent: contact_number
+  examples: |
+    - What is the contact number for christ college?
+    - Can you give me your phone number?
+    - How can I contact you?
+    - What's your contact number?
+    - Could you provide me with your phone number?
+    - I need the contact number of christ college
+    - Can I have your contact number?
+    - What is the phone number for christ college?
+    - How do I reach you by phone?
+    - What's the phone number of your institute?
+    - Tell me the contact number for christ college
+    - Can you share your contact number?
+    - What's your institute's phone number?
+    - How can I call you?
+    - Give me the phone number for christ college
+    - What is your telephone number?
+    - How can I get in touch with christ college?
+    - I need your phone number
+    - Whats your direct phone number?
+    - Could you give me the contact number for your institute?
+    
+- intent: certifications
+  examples: |
+    - Are you an ISO certified institution?
+    - Tell me about your certifications
+    - Is christ college ISO 9001:2015 certified?
+    - What certifications do you have?
+    - Are you affiliated with any organizations?
+    
+- intent: ask_principal_name
+  examples: |
+    - Who is the principal of christ college?
+    - Can you tell me the name of christ college's principal?
+    - What is the name of the principal of christ college?
+

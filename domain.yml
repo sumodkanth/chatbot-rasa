@@ -1,0 +1,149 @@
+version: '3.1'
+intents:
+- affirm
+- first
+- bot_challenge
+- mathematics
+- physics
+- computerscience
+- bba
+- chemistry
+- goodbye
+- greet
+- location
+- christ_course
+- christ_intro
+- mood_great
+- mood_unhappy
+- contact_number
+- ask_principal_name
+- certifications
+
+
+
+responses:
+  utter_greet:
+  - text: Hi ,Thank you for contacting Christ College. How can I help you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a Christ College bot, powered by Rasa.
+  utter_christ_intro:
+  - text: Christ College was started in 1956, by the Devamatha Province of the Carmelites of Mary Immaculate (CMI), an indigenous religious congregation founded in 1831 by Saint Cyriac Elias. a religious priest and versatile genius, who envisioned education as a tool for liberation and development.This college is a minority institution, affiliated to Calicut University and re-accredited by NAAC with highest grade ‘A++’. Christ College is dedicated to Jesus Christ, and has as its motto “Jeevitha Prabha”, which means “Light of Life”.Following recommendation from state government, the college has been conferred the “Autonomous status” by University Grants Commission(UGC) during the year 2015,the Diamond Jubilee year of the college.It offers an ideal vision of education that is aware of and responsive to the challenges of the nation’s present situation.
+
+  utter_christ_course:
+  - text: 'We offer a variety of courses: '
+    buttons:
+    - title: BSC MATHEMATICS
+      payload: /mathematics
+    - title: BSC PHYSICS
+      payload: /physics
+    - title: BSC COMPUTER SCIENCE
+      payload: /computerscience
+    - title: BBA
+      payload: /bba
+    - title: BSC CHEMISTRY
+      payload: /chemistry
+  
+  utter_mathematics:
+  - text: |
+      BSC MATHEMATICS<br>
+      Department Name: MATHEMATICS<br>
+      About Course: A Bachelor of Science in Mathematics (BSc Mathematics) is an undergraduate program focusing on the study of mathematical concepts, theories, and applications. It covers areas such as calculus, algebra, geometry, statistics, and mathematical modeling. Students develop problem-solving skills and logical reasoning abilities applicable in various fields including science, engineering, finance, and computer science. Graduates are prepared for careers in research, data analysis, software development, finance, and education, or can pursue further studies at the graduate level.<br>
+      Duration: 3 Years.<br>
+      Eligibility: Applicants must have completed their +2 education from a recognized board with a focus on Science subjects. They should have secured a minimum of 60% aggregate marks in their +2 examination with Mathematics as one of the core subjects. Preference may be given to students who have also studied Physics and/or Chemistry.<br>
+      Fee:<br>
+        - Admission Fees: 15000<br>
+        - Total Fees: 5 Lakhs<br>
+
+  utter_physics:
+  - text: |
+      BSC PHYSICS<br>
+      Department Name: PHYSICS<br>
+      About Course: BSc Physics is an undergraduate program delving into the fundamental principles of the physical world. It covers classical mechanics, electromagnetism, quantum mechanics, and more. Through labs and problem-solving, students develop analytical skills and critical thinking. Graduates are equipped for careers in research, academia, engineering, and various other fields requiring scientific expertise.<br>
+      Duration: 3 Years.<br>
+      Eligibility: Applicants must have completed their +2 education from a recognized board with a focus on Science subjects. They should have secured a minimum of 60% aggregate marks in their +2 examination with Physics, Chemistry, and Mathematics as core subjects. Preference may be given to students with a strong background in Physics.<br>
+      Fee:<br>
+        - Admission Fees: 15000<br>
+        - Total Fees: 5 Lakhs<br>
+
+  utter_computerscience:
+  - text: |
+      BSC COMPUTER SCIENCE<br>
+      Department Name: COMPUTER SCIENCE<br>
+      About Course: The Department of Computer Science offers two programs (Bachelor of Computer Science and Bachelor of Computer Application) and a Master’s program in Computer Science. Careers in Computer Science remain in very high demand and they offer not only the comforts of a high-paying job but also the intellectual challenges of a creative and productive profession.<br>
+      Duration: 3 Years.<br>
+      Eligibility: Applicants must have completed their +2 education from a recognized board with a focus on Science subjects. They should have secured a minimum of 60% aggregate marks in their +2 examination with Mathematics as one of the core subjects. Preference may be given to students who have also studied Physics and/or Computer Science.<br>
+      Fee:<br>
+        - Admission Fees: 15000<br>
+        - Total Fees: 5 Lakhs<br>
+
+  utter_bba:
+  - text: |    
+      BBA <br>
+      Department Name: MANAGEMENT STUDIES<br>
+      About Course: A Bachelor of Business Administration (BBA) program provides a comprehensive overview of essential business disciplines like accounting, finance, marketing, and management. It equips students with skills in critical thinking, problem-solving, communication, and leadership. BBA graduates are prepared for various roles in business and management across industries such as banking, consulting, marketing, and entrepreneurship.<br>
+      Duration: 3 Years.<br>
+      Eligibility: Applicants must have completed their +2 education from a recognized board with any stream (Science, Commerce, or Arts). They should have secured a minimum of 60% aggregate marks in their +2 examination.<br>
+      Fee:<br>
+        - Admission Fees: 15000<br>
+        - Total Fees: 5 Lakhs<br>
+
+  utter_chemistry:
+  - text: |    
+      BSC CHEMISTRY<br>
+      Department Name: CHEMISTRY<br>
+      About Course: A Bachelor of Science (BSc) in Chemistry program focuses on the study of chemical properties, compositions, and reactions of substances. It covers core areas such as organic, inorganic, physical, and analytical chemistry, providing a solid foundation in scientific principles and laboratory techniques. Students learn to conduct experiments, analyze data, and draw conclusions, preparing them for careers in research, pharmaceuticals, environmental science, and various industries.<br>
+      Duration: 3 Years.<br>
+      Eligibility: Applicants must have completed their +2 education from a recognized board with a focus on Science subjects. They should have secured a minimum of 60% aggregate marks in their +2 examination with Mathematics as one of the core subjects. Preference may be given to students who have also studied Physics and Chemistry.<br>
+      Fee:<br>
+        - Admission Fees: 15000<br>
+        - Total Fees: 5 Lakhs<br>
+
+  utter_location:
+  - text: CHRIST COLLEGE (AUTONOMOUS) IRINJALAKUDA, IRINJALAKUDA, THRISSUR, KERALA, 680121, INDIA
+
+  utter_contact_number:
+  - text: Message to us Main Office:-0480 2825258, Placement Coordinator:-90740 47973
+
+  utter_certification_details:
+  - text: Christ College, Irinjalakuda, is accredited with an 'A++' grade by NAAC and enjoys autonomous status from the UGC, allowing it to design its own curriculum. It holds ISO 9001:2015 certification for quality management and consistently ranks well in the NIRF rankings. The college is also recognized under the DBT STAR College Scheme for excellence in undergraduate science education.
+  
+  utter_principal_name:
+  - text: Dr. Fr. Jolly Andrews CMI
+
+  utter_first:
+  - text: "Thank you for contacting Christ College."
+
+actions:
+- utter_goodbye
+- utter_greet
+- utter_first
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_iamabot
+- utter_christ_intro
+- utter_christ_course
+- utter_mathematics
+- utter_physics
+- utter_computerscience
+- utter_bba
+- utter_chemistry
+- utter_location
+- utter_contact_number
+- utter_certification_details
+- utter_principal_name
+
+# - action_hello_world
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

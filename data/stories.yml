@@ -1,0 +1,92 @@
+version: "3.1"
+intents:
+  - greet
+  - first
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - christ_intro
+  - christ_course
+  - mathematics
+  - physics
+  - computerscience
+  - bba
+  - chemistry
+  - location
+  - principal
+  
+
+stories:
+
+- story: greets
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: ask 
+  steps:
+  - intent: first
+  - action: utter_first
+  
+- story: goodbyee
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: bot challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: ask christ intro
+  steps:
+  - intent: christ_intro
+  - action: utter_christ_intro
+
+- story: ask christ course
+  steps:
+  - intent: christ_course
+  - action: utter_christ_course
+
+- story: ask mathematics
+  steps:
+  - intent: mathematics
+  - action: utter_mathematics
+
+- story: ask physics
+  steps:
+  - intent: physics
+  - action: utter_physics
+
+- story: ask computerscience
+  steps:
+  - intent: computerscience
+  - action: utter_computerscience
+
+- story: ask bba
+  steps:
+  - intent: bba
+  - action: utter_bba
+
+- story: ask chemistry
+  steps:
+  - intent: chemistry
+  - action: utter_chemistry
+
+- story: ask location
+  steps:
+  - intent: location
+  - action: utter_location
+
+- story: respond to principal name question
+  steps:
+  - intent: ask_principal_name
+  - action: utter_principal_name
+
+- story: ask contact
+  steps:
+  - intent: contact_number
+  - action: utter_contact_number
